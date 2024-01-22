@@ -1,0 +1,2 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> ./a.exe                                                                               
+Tanusha M
