@@ -1,0 +1,5 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc "C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem02.c"
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> ./a.exe
+Enter a: 4
+Enter b: 5
+4 + 5 = 9
