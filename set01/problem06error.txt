@@ -1,0 +1,6 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc "C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem06.c"
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> ./a.exe  
+Enter 3 number: 4
+5
+6
+Largest number of 4, 5 and 6 is 6
