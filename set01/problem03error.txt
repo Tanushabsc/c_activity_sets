@@ -1,0 +1,5 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc "C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem03.c"
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> ./a.exe
+Enter the value: 3
+Enter the value: 4
+3 + 4 = 7
