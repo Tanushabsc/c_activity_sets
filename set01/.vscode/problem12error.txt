@@ -1,0 +1,16 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc "C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem12.c"
+C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem12.c:15:5: error: stray '`' in program
+ }   `
+     ^
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc "C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem12.c"
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> ./a.exe
+Enter the number of complex numbers: 2
+Enter 2 complex numbers:
+Enter real part: 3
+Enter imaginary part: 4
+Enter real part: 3
+Enter imaginary part: 4
+Complex numbers entered:
+3.000000 + 4.000000i
+3.000000 + 4.000000i
+Sum of complex numbers: 6.000000 + 8.000000i
