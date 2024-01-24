@@ -1,0 +1,9 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc "C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem08.c"
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> ./a.exe
+Enter the size of the array: 5
+Enter the elements: 5
+Enter the elements: 6
+Enter the elements: 7
+Enter the elements: 1
+Enter the elements: 2
+The sum is 21
