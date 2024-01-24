@@ -1,0 +1,10 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc "C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem09.c"
+C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem09.c: In function 'half_square_root':
+C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem09.c:21:5: error: expected ';' before '}' token
+     }
+     ^
+C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem09.c: In function 'main':
+C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem09.c:34:5: error: 'sqrrt' undeclared (first use in this function)
+     sqrrt=half_square_root(inp);
+     ^~~~~
+C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem09.c:34:5: note: each undeclared identifier is reported only once for each function it appears in
