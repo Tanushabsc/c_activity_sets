@@ -1,0 +1,5 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc "C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem10.c"
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> ./a.exe
+Enter the string 1:hello
+Enter the string 2:Hello
+hello is greater than Hello
