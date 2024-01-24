@@ -1,0 +1,12 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc "C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\problem11.c"
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> ./a.exe                                                                 
+Enter real nummber: 3
+Enter imaginary number: 4
+Enter real nummber: 3
+Enter imaginary number: 4
+3.000000 + 4.000000i + 3.000000 + 4.000000i = 6.000000 + 8.000000i
+
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc problem011.c -O0 -g
+gcc.exe: error: problem011.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
