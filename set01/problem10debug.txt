@@ -1,0 +1,76 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gcc problem10.c -O0 -g
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x4015d7: file problem10.c, line 40.
+(gdb) r
+Starting program: C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set01/a.exe
+[New Thread 2816.0x370]
+[New Thread 2816.0x11bc]
+
+Breakpoint 1, main () at problem10.c:40
+40          input_strings(ch1,ch2);
+(gdb) s
+input_strings (ch1=0x61feb8 "\034"Íuüþa", ch2=0x61fe54 ".\030Bº¨þa") at problem10.c:5
+5           printf("Enter the string 1:");
+(gdb) s
+Enter the string 1:6        scanf("%s",ch1);
+(gdb) s
+hello
+7           printf("Enter the string 2:");
+(gdb) Hello
+Undefined command: "Hello".  Try "help".
+(gdb) s
+Enter the string 2:8        scanf("%s",ch2);
+(gdb) s
+Hello
+9       }
+(gdb) s
+main () at problem10.c:41
+41          int result = compare_strings(ch1,ch2);
+(gdb) s
+compare_strings (ch1=0x61feb8 "hello", ch2=0x61fe54 "Hello") at problem10.c:14
+14          for (i=0;ch1[i] != '\0' && ch2[i] != '\0';i++)
+(gdb) s
+16              if (ch1[i] < ch2[i])
+(gdb) s
+18              else if (ch1[i] > ch2[i])
+(gdb) s
+19                  return 1;
+(gdb) s
+27      }
+(gdb) s
+main () at problem10.c:42
+42          output(ch1,ch2,result);
+(gdb) s
+output (ch1=0x61feb8 "hello", ch2=0x61fe54 "Hello", result=1) at problem10.c:30
+30          if (result == -1)
+(gdb) s
+32          else if (result == 1)
+(gdb) s
+33             printf("%s is greater than %s", ch1, ch2);
+(gdb) s
+hello is greater than Hello36   }
+(gdb) s
+main () at problem10.c:43
+43          return 0;
+(gdb) s
+44      }
+(gdb) s
+0x00401288 in __register_frame_info ()
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 2816] will be killed.
+
+Quit anyway? (y or n) y
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
