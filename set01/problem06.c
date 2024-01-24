@@ -1,3 +1,4 @@
+//Write a C program to compare three numbers using pass by reference
 #include <stdio.h>
 void input(int *a,int *b,int *c)
 {
