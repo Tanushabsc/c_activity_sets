@@ -1,0 +1,70 @@
+S C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401505: file problem03.c, line 30.
+(gdb) r     
+Starting program: C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02/a.exe
+[New Thread 9748.0x364c]
+[New Thread 9748.0x1af4]
+
+Breakpoint 1, main () at problem03.c:30
+30          a=input_number();
+(gdb) s
+input_number () at problem03.c:6
+6           printf("Enter a number: ");
+(gdb) s
+Enter a number: 7           scanf("%d",&n);
+(gdb) s
+3
+8           return n;
+(gdb) s
+9       }
+(gdb) s
+main () at problem03.c:31
+31          int res=is_composite(a);
+(gdb) s
+is_composite (n=3) at problem03.c:12
+12          int result=0;
+(gdb) s
+13          for(int i=1;i<=n;i++)
+(gdb) s
+15              if(n%i==0)
+(gdb) s
+16              result+=1;
+(gdb) s
+13          for(int i=1;i<=n;i++)
+(gdb) s
+15              if(n%i==0)
+(gdb) s
+13          for(int i=1;i<=n;i++)
+(gdb) s
+15              if(n%i==0)
+(gdb) s
+16              result+=1;
+(gdb) s
+13          for(int i=1;i<=n;i++)
+(gdb) s
+18      }
+(gdb) s
+main () at problem03.c:32
+32          output(a,res);
+(gdb) s
+output (n=3, result=4) at problem03.c:21
+21          if(result>2)
+(gdb) s
+22          printf("%d is a composite number",n);
+(gdb) s
+3 is a composite number25       }
+(gdb) s
+main () at problem03.c:33
+33          return 0;
+(gdb)
