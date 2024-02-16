@@ -1,0 +1,49 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x4014fa: file problem01.c, line 17.
+(gdb) r
+Starting program: C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02/a.exe
+[New Thread 15340.0x14f0]
+[New Thread 15340.0x21e8]
+
+Breakpoint 1, main () at problem01.c:17
+17          input(&base,&height);
+(gdb) s
+input (base=0x61ff1c, height=0x61ff18) at problem01.c:4
+4           printf("Enter base value:");
+(gdb) s
+Enter base value:5          scanf("%f",base);
+(gdb) s
+3
+6           printf("Enter height value:");
+(gdb) s
+Enter height value:7        scanf("%f",height);
+(gdb) s
+5
+8       }
+(gdb) s
+main () at problem01.c:18
+18          find_area(base,height,&area);
+(gdb) s
+find_area (base=3, height=5, area=0x61ff14) at problem01.c:10
+10          *area = 0.5*(base*height);
+(gdb) s
+11      }
+(gdb) s
+main () at problem01.c:19
+19          output(base,height,area);
+(gdb) s
+output (base=3, height=5, area=7.5) at problem01.c:13
+13          printf("The area of triangle with base %f and %f is %f",base,height,area);
+(gdb) s
+The area of triangle with base 3.000000 and 5.000000 is 7.50000014      }
