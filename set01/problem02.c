@@ -2,13 +2,13 @@
 #include <stdio.h>
 int main()
 {
-    int a,b;
+    float a,b;
     printf("Enter a: ");
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("Enter b: ");
-    scanf("%d",&b);
-    int sum;
+    scanf("%f",&b);
+    float sum;
     sum=a+b;
-    printf("%d + %d = %d",a,b,sum);
+    printf("%.2f + %.2f = %.2f",a,b,sum);
     return 0;
 }

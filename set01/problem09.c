@@ -33,5 +33,5 @@ int main()
     inp=input();
     sqrrt=half_square_root(inp);
     output(inp,sqrrt);
-    
+    return 0;
 }

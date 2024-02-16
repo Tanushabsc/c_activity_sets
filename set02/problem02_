@@ -1,0 +1,6 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02> gcc problem02.c
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02> .\a.exe        
+Enter the side of triangle: 3
+Enter the side of triangle: 4
+Enter the side of triangle: 3
+It is not a scalene triangle
