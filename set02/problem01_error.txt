@@ -1,0 +1,5 @@
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02> gcc problem01.c
+PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02> .\a.exe        
+Enter base value:3
+Enter height value:4
+The area of triangle with base 3.000000 and 4.000000 is 6.000000
