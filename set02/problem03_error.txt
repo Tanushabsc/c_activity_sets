@@ -1,4 +1,4 @@
 PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02> gcc problem03.c
 PS C:\Users\Tanusha M\Documents\PSC\c_activity_sets\set02> .\a.exe                 
 Enter a number: 3
-3 is a composite number
+3 is a composite number. 
