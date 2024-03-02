@@ -1,6 +1,6 @@
 //Write a C program to find the sum of n complex numbers
 
- #include <stdio.h>
+#include <stdio.h>
 struct complex_number
 {
     float real, img;
